@@ -1,0 +1,47 @@
+.price_box {
+  padding-top: 65px;
+  background: #E5E5E5;
+
+  .price_heading {
+    display: flex;
+    align-items: self-end;
+  }
+
+  .price_heading_p {
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 35px;
+    color: #000000;
+    display: block;
+    border-left: 4px solid #FF0000;
+    margin-left: 17px;
+    padding-left: 28px;
+    height: 46px;
+  }
+
+  .price_text {
+    max-width: 240px;
+    align-self: self-start;
+    margin-left: 90px;
+    margin-bottom: 30px;
+  }
+
+  .price_text_p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 28px;
+    color: #000000;
+  }
+
+  .wrapper{
+    display: flex;
+    justify-content: space-between;
+
+    .plan_img{
+      width: 100%;
+      max-width: 545px;
+      height: auto;
+    }
+  }
+}
+

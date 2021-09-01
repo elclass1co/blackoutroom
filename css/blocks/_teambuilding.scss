@@ -1,0 +1,67 @@
+.teambuilding{
+  padding-top: 65px;
+  background: url("../img/teambuilding/teambuilding_bg.png");
+  background-position: center;
+  background-size: cover;
+  .w{
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .teambuilding_content{
+    max-width: 510px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+
+    &_img{
+      padding-top: 34px;
+      padding-bottom: 30px;
+      align-self: center;
+
+    }
+    &_desc{
+      display: flex;
+      align-items: center;
+      &_text{
+        font-family: Roboto, sans-serif;
+        font-size: 14px;
+        line-height: 28px;
+        color: #000000;
+        max-width: 300px;
+        margin-right: 60px;
+        margin-bottom: 30px;
+      }
+      &_img{
+        margin-left: 30px;
+        margin-right: 30px;
+      }
+    }
+    &_button{
+        align-self: center;
+      padding-bottom: 45px;
+      &_a{
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
+        background: #FF0000;
+        border-radius: 25px;
+        padding: 10px 62px;
+        text-decoration: none;
+
+        &:hover{
+          background: #C60000;
+        }
+      }
+
+    }
+  }
+}
+
+

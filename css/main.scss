@@ -1,0 +1,15 @@
+// reset all styles with bootstrap-reboot
+
+@import "bootstrap/bootstrap-reboot";
+
+//base
+@import "base/base";
+
+
+//blocks
+@import "blocks/header";
+@import "blocks/events";
+@import "blocks/price_box";
+@import "blocks/gift_idea";
+@import "blocks/teambuilding";
+@import "blocks/footer";

@@ -42,10 +42,15 @@
   .nav__social{
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
 
     &_li{
       list-style-type: none;
     }
+    .twitter{
+      padding-right: 20px;
+    }
+
   }
 }
 
@@ -72,6 +77,10 @@
     background: #FF0000;
     border-radius: 25px;
     padding: 10px 88px;
+
+    &:hover{
+      background: #C60000;
+    }
   }
 }
 

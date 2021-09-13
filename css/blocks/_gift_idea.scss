@@ -73,21 +73,22 @@
       }
     }
     &_button{
+      text-decoration: none;
       margin-bottom: 40px;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 17px;
+      color: #FFFFFF;
+      background: #FF0000;
+      border-radius: 25px;
+      padding: 10px 88px;
 
-      &_a{
+      &:hover{
+        background: #C60000;
         text-decoration: none;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 14px;
-        line-height: 17px;
         color: #FFFFFF;
-        border-radius: 25px;
-        padding: 10px 62px;
-        background: #FF0000;
-
-
       }
+
     }
 
   }
